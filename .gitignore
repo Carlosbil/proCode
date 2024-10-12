@@ -1,2 +1,5 @@
 
 python_problems/array_strings/__pycache__/greatest_common_divisor_of_strings.cpython-311.pyc
+/python_problems/test_array_strings/__pycache__
+*.pyc
+/.vscode
