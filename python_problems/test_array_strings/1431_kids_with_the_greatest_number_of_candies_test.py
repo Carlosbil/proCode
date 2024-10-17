@@ -1,8 +1,5 @@
 import unittest
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from array_strings.kids_with_the_greatest_number_of_candies import Solution
+from python_problems.array_strings.kids_with_the_greatest_number_of_candies import Solution
 
 
 

@@ -1,9 +1,6 @@
 import unittest
 import time
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
-from array_strings.merge_strings_alternately import Solution, Solution2
+from python_problems.array_strings.merge_strings_alternately import Solution, Solution2
 # Unit tests
 class TestSolution(unittest.TestCase):
     def setUp(self):

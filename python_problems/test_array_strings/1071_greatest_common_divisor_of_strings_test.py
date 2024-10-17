@@ -1,9 +1,6 @@
 import unittest
 import time
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from array_strings.greatest_common_divisor_of_strings import *
+from python_problems.array_strings.greatest_common_divisor_of_strings import *
 
 # Unit tests
 class TestGcdOfStrings(unittest.TestCase):

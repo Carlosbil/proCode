@@ -1,8 +1,5 @@
 import unittest
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from array_strings.can_place_flowers import Solution
+from python_problems.array_strings.can_place_flowers import Solution
 
 class TestSolution(unittest.TestCase):
     def setUp(self):
