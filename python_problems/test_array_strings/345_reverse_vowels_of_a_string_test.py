@@ -1,6 +1,6 @@
 import unittest
 import time
-from array_strings.reverse_vowels_of_a_string import Solution, Solution2
+from python_problems.array_strings.reverse_vowels_of_a_string import Solution, Solution2
 
 class TestReverseVowels(unittest.TestCase):
     def setUp(self):
