@@ -1,6 +1,7 @@
 import unittest
 from python_problems.array_strings.product_of_array_except_self import Solution
 
+
 class TestProductExceptSelf(unittest.TestCase):
     def setUp(self):
         self.solution = Solution()
