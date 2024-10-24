@@ -27,7 +27,7 @@ class TestProductExceptSelf(unittest.TestCase):
         self.assertEqual(self.solution.productExceptSelf([0, 0, 0]), [0, 0, 0])
 
     def test_all_ones(self):
-        # Caso con todos los elementos siendo uno
+        # Caso con todos los elementos siendo uno 
         self.assertEqual(self.solution.productExceptSelf([1, 1, 1, 1]), [1, 1, 1, 1])
 
     def test_negative_numbers(self):
